@@ -9,13 +9,11 @@ x = f.read()
 
 # Specifying language:
 language = 'en'  # You can specify any language. Reffer to the gtts documentation
-# Working!!!!
 # simply write this down for better sound
 audio = gTTS(text=x, lang=language, slow=False)
 
 # Now save the audio file
 # You can save by any name you wish
 # When I play the file you won't be able to hear it as my recorder is not working but I am sure this code works
-# Source Code in description
 audio.save("3.wav")
 os.system("3.wav")
